@@ -1,0 +1,176 @@
+/* Basic Reset & Element Selectors */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333333;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Lora', Georgia, serif;
+    color: #1b365d;
+    margin-top: 0;
+}
+
+/* Header Styling (ID Selector) */
+#main-header {
+    background-color: #1b365d;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#main-header h1 {
+    color: #ffffff;
+    margin-bottom: 8px;
+    font-size: 32px;
+}
+
+.tagline {
+    color: #d9e2ec;
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Profile Photo Styling (Class Selector) */
+.profile-pic {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 15px;
+}
+
+/* Navigation Bar Styling */
+#navbar {
+    background-color: #102a43;
+    text-align: center;
+    padding: 12px 0;
+}
+
+#navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    display: inline-block;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+#navbar a:hover,
+#navbar a.active {
+    background-color: #336699;
+}
+
+/* Main Content Container */
+.container {
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Section Card Design */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #d9e2ec;
+    border-left: 5px solid #1b365d;
+    border-radius: 6px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.card h2 {
+    border-bottom: 2px solid #f0f4f8;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+/* Education Items */
+.edu-item {
+    margin-bottom: 15px;
+}
+
+.edu-item h3 {
+    font-size: 18px;
+    margin-bottom: 4px;
+    color: #243b53;
+}
+
+.institution {
+    margin: 0;
+    color: #627d98;
+    font-size: 14px;
+}
+
+/* Skills Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #bcccdc;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #1b365d;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+/* Lists Styling */
+.styled-list {
+    padding-left: 20px;
+}
+
+.styled-list li {
+    margin-bottom: 10px;
+}
+
+/* Interactive Details Tag Styling (From MDN) */
+.hint-text {
+    font-size: 14px;
+    color: #627d98;
+    margin-bottom: 12px;
+}
+
+details {
+    background-color: #f8fafc;
+    border: 1px solid #d9e2ec;
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+
+summary {
+    font-weight: 600;
+    color: #1b365d;
+    cursor: pointer;
+}
+
+details p {
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+/* Footer Styling */
+#main-footer {
+    background-color: #102a43;
+    color: #d9e2ec;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+}
